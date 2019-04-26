@@ -1,0 +1,173 @@
+/* BLACK FRIDAY LP */
+.blackFridayLP {
+  background-color: #1E1E1E;
+  margin: 0 auto; }
+  .blackFridayLP__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin: 0 3rem; }
+    @media only screen and (max-width: 37.5em) {
+      .blackFridayLP__container {
+        margin: 0; } }
+    .blackFridayLP__container__linkTitleTop {
+      font-size: 1rem;
+      margin: 1rem auto; }
+      .blackFridayLP__container__linkTitleTop a {
+        font-family: "Adelle Sans W01 Thin" !important;
+        text-decoration: underline;
+        color: #bbb; }
+    .blackFridayLP__container__header {
+      background-image: linear-gradient(to right bottom, rgba(27, 27, 27, 0.1), rgba(27, 27, 27, 0.3)), url(../img/hero-7.jpg);
+      object-fit: cover;
+      object-position: center center;
+      background-size: cover;
+      width: 100%;
+      padding-bottom: 4rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column; }
+      .blackFridayLP__container__header__companyContent {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #FFF;
+        margin: 2rem auto;
+        font-size: 2rem; }
+        @media only screen and (max-width: 37.5em) {
+          .blackFridayLP__container__header__companyContent {
+            font-size: 1.25rem;
+            margin: 1rem auto; } }
+        .blackFridayLP__container__header__companyContent--title {
+          font-family: "Kessel 205 W00 Thin" !important;
+          text-transform: capitalize;
+          font-weight: bold; }
+      .blackFridayLP__container__header__content {
+        border-top: solid 13px #FE3700;
+        border-bottom: solid 13px #FE3700;
+        color: #FFF;
+        text-transform: uppercase;
+        font-family: "Colo-Pro-Black";
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center; }
+    .blackFridayLP__container__main {
+      font-family: "Adelle Sans W01 Thin" !important; }
+      .blackFridayLP__container__main__text {
+        color: #FFF;
+        margin: 2rem auto;
+        width: 80%;
+        font-size: 1.25rem; }
+        @media only screen and (max-width: 37.5em) {
+          .blackFridayLP__container__main__text {
+            font-size: 1rem;
+            margin: 1rem auto; } }
+      .blackFridayLP__container__main__containerButton {
+        margin: 2rem auto;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .blackFridayLP__container__main__containerButton button {
+          font-family: "Colo-Pro-Black";
+          height: 3.5rem;
+          width: auto;
+          background: #FF3008;
+          font-size: 1.5rem;
+          padding: 1rem 3rem;
+          border: none;
+          outline: none;
+          text-transform: uppercase;
+          color: #FFF; }
+          .blackFridayLP__container__main__containerButton button:hover {
+            cursor: pointer; }
+      .blackFridayLP__container__main__article {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+    .blackFridayLP__container__footer {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-top: solid 1px #BBB;
+      width: 80%;
+      padding: 2rem 0;
+      margin-top: 2rem; }
+      .blackFridayLP__container__footer__text {
+        color: #BBB; }
+        @media only screen and (max-width: 37.5em) {
+          .blackFridayLP__container__footer__text {
+            font-size: .75rem; } }
+        .blackFridayLP__container__footer__text a {
+          padding-left: .3rem;
+          font-family: "Adelle Sans W01 Thin" !important;
+          text-decoration: underline;
+          color: #bbb; }
+          .blackFridayLP__container__footer__text a:hover {
+            cursor: pointer; }
+
+.headerContent {
+  display: flex; }
+  .headerContent__titleContent {
+    align-items: center;
+    display: flex;
+    flex-direction: column; }
+    .headerContent__titleContent--titleH1 {
+      font-size: 9rem;
+      margin: 0; }
+      @media only screen and (max-width: 56.25em) {
+        .headerContent__titleContent--titleH1 {
+          font-size: 7rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .headerContent__titleContent--titleH1 {
+          font-size: 5rem; } }
+    .headerContent__titleContent--titleH3 {
+      font-size: 6rem;
+      letter-spacing: 5px;
+      margin: 0; }
+      @media only screen and (max-width: 56.25em) {
+        .headerContent__titleContent--titleH3 {
+          font-size: 5rem; } }
+      @media only screen and (max-width: 37.5em) {
+        .headerContent__titleContent--titleH3 {
+          font-size: 3.5rem; } }
+      .headerContent__titleContent--titleH3:last-of-type {
+        color: #FE3700;
+        text-align: center; }
+
+.containerArticle {
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem .75rem;
+  box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5); }
+  .containerArticle__image {
+    height: 210px;
+    width: 230px;
+    flex-shrink: 0; }
+    @media only screen and (max-width: 56.25em) {
+      .containerArticle__image {
+        width: 200px;
+        height: 200px; } }
+    .containerArticle__image img {
+      object-fit: cover;
+      object-position: center center;
+      background-size: cover;
+      width: 100%;
+      height: 100%;
+      background-image: linear-gradient(to right bottom, rgba(27, 27, 27, 0.67), #1b1b1b); }
+  .containerArticle__title {
+    font-size: 1.3rem;
+    background: #FF3008;
+    color: #FFF;
+    text-transform: uppercase;
+    font-family: "Colo-Pro-Black";
+    padding: .4rem 0;
+    display: flex;
+    justify-content: center; }
+
+.copy {
+  margin-top: 1rem;
+  color: #BBB;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif; }
+  .copy i {
+    color: #FF3008; }
